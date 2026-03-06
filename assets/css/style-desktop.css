@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  color: #393d41;
+  background-color:;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #25a2c3;
+}
+
+.page-setting {
+  max-width: 1440px;
+  text-align: center;
+  margin: auto;
+}
+
+.box-black {
+  background-color: black;
+  padding: 1em;
+}
+
+.logo-page {
+  margin-right: 85%;
+}
+
+header section {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 8em;
+  margin-bottom: 1em;
+}
+
+header h1 {
+  font-size: 2em;
+}
+
+header p {
+  margin-bottom: 2em;
+}
+
+button {
+  background-color: #f04c2f;
+  border-radius: 10%;
+  color: white;
+  padding: 0.8em;
+  width: 10%;
+}
+
+.pc-images {
+  border-radius: 100%;
+  border: 1px solid #dee1e3;
+}
+
+.first-section {
+  background-color: white;
+  float: right;
+  margin-top: 5em;
+}
+
+.box-red{
+    background-color: #EE2200;
+    border: 1px solid #dee1e3;
+    padding: 5em;
+    color: white;
+}
+
+.box-red :nth-child(2){
+    font-style: italic;
+    margin-bottom: 1em;
+}
+
+.box-red h3{color: white;
+    margin-bottom: 1em;
+    
+}
+
+.laptop-image-all{
+    display: inline-block;
+}
+
+.box-pc1,
+.box-pc2,
+.box-pc3{display: inline-block;
+  border: 1px solid #dee1e3;
+  font-size: 0.8em;
+  padding: 2em;
+  margin: 3em;
+  width: 20%;}
+  
+  footer{background-color: #c8e7f0;
+margin: auto;}
+
+  footer h2,
+  footer p,
+  footer a{ color: white;
+margin-bottom: auto;}
+
+  footer hr{border: 1px solid white;
+margin-left: 40%;
+margin-right: 40%;;
+margin-bottom: 1.5em;
+margin-top: 1.5em;}
+
+footer h2{margin-bottom: 1em;
+font-size: 1.5em;}

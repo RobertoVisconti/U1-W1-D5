@@ -45,7 +45,7 @@ header{
 
 header section{
     background-image: url(../images/banner.jpg);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     height: 250px;
 }
