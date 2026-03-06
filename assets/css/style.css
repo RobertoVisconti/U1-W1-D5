@@ -47,12 +47,15 @@ header section{
     background-image: url(../images/banner.jpg);
     background-size: contain;
     background-position: center;
-    width: 100%;
+    height: 250px;
 }
 
 header button{
-    color:#f04c2f ;
+    background-color:#f04c2f ;
+    color: white;
+    padding: 0.8em;
 }
+
 main h3{
     margin-bottom: 0.5em;
 }
